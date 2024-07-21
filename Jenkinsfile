@@ -87,8 +87,8 @@ pipeline {
                 ]
                     build job: 'frontend-deploy', parameters: params, wait: false
                 }
-            } */
-        }
+            } 
+        }*/
     }
     post {
         always {
